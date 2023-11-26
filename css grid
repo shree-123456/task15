@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border: 1px solid black ;
+            background-color: aqua;
+            border-radius: 10px;
+             
+        }
+        .cd{
+            border:2px solid black;
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+           grid-column-start: 1;
+           grid-column-end: 3;
+            gap: 10px;
+            text-align: center;
+            padding: 1%;
+
+            
+
+        }
+        .items{
+            border:1px solid black;
+            padding: 15px;
+    
+
+        }
+        .items:hover{
+            background-color: blueviolet;
+        }
+        .items1{
+           /* grid-column: 1/ span 6 ; */ 
+            border: 1px solid black;
+            background-color: aquamarine;
+            grid-column-start: 1;
+            grid-column-end: 6; 
+            height: 40px;
+        }
+        </style>
+</head>
+<body>
+    <div  class="md">
+        <center><h1>calculator<h1></center>
+    </div>
+    <div class="cd">
+        <div class="items items1">0</div>
+       <div class="items">on/off</div>
+       <div class="items">set</div>
+       <div class="items">tax-</div>
+       <div class="items">tax+</div>
+       <div class="items">marc c</div>
+       <div class="items">m -</div>
+       <div class="items">m +</div>
+       <div class="items">></div>
+       <div class="items"><</div>
+       <div class="items">+/-</div>
+       <div class="items">mu</div>
+       <div class="items">ac</div>
+       <div class="items">%</div>
+       <div class="items">1</div>
+       <div class="items">2</div>
+       <div class="items">3</div>
+       <div class="items">4</div>
+       <div class="items">5</div>
+       <div class="items"></div>
+       <div class="items"></div>
+       <div class="items">1</div>
+       <div class="items">2</div>
+       <div class="items">3</div>
+       <div class="items">4</div>
+       <div class="items">5</div>
+       <div class="items">6</div>
+       <div class="items">7</div>
+       <div class="items">8</div>
+       <div class="items">9</div>
+       <div class="items"></div>
+       <div class="items">1</div>
+       <div class="items">2</div>
+       <div class="items">3</div>
+       <div class="items">4</div>
+       <div class="items">5</div>
+       <div class="items">6</div>
+       <div class="items">7</div>
+       <div class="items">8</div>
+       <div class="items">9</div>
+       
+
+    </div>
+</body>
+</html>
